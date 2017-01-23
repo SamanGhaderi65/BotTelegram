@@ -5,12 +5,12 @@ $the_admin_id = 0;
 
 file_put_contents("count",file_get_contents("count")+1);
 
-$ad_btn='آموزش های رایگان برنامه نویسی';
-$ad_url='http://telegram.me/cplearn';
-$ad_text = "1⃣ در تلگـ ـلیست، کانال خودتون رو به رایگان در مرجع کانالهای تلگرام فارسی قرار بدید، به رايگان تبليغ و عضوگيرى كنيد.
-<a href='http://www.teleglist.com/?bot'>به رایگان در تلگـ ـلیست کانال خود را ثبت کنید</a>
+$ad_btn='مارکت اینترنتی سایا';
+$ad_url='https://sayastore.com';
+$ad_text = "فروشگاه آنلاین لوازم خانگی و اداری
+<a href='https://sayastore.com'>مارکت اینترنتی سایا</a>
 ➖➖➖➖➖➖
-ارایه انواع آموزش برنامه نویسی و طراحی وب...برای کسب اطالاعات بیشتر در کانال سایت عضو بشید.";
+فروشگاه آنلاین لوازم خانگی و اداری";
 
 function getUserLocation($uid,$default){
     $cached = apc_fetch('location-'.$uid);
@@ -818,7 +818,7 @@ https://telegram.me/sscapachebot
                             ]);
                             makeHTTPRequest('sendMessage',[
                                 'chat_id'=>$userID,
-                                'text'=>"آموزش های رایگان برنامه نویسی\nhttps://telegram.me/mhrdev\nآموزش توسعه ربات تلگرام\nhttps://telegram.me/tbdchannel\nبه ربات ما سر بزنید\nhttps://telegram.me/sscapachebot"
+                                'text'=>"کانال مارکت اینترنتی سایا\nhttps://telegram.me/sayastore\nمارکت اینترنتی سابا\nhttps://telegram.me/sayastore\nبه ربات ما سر بزنید\nhttps://telegram.me/sayastorebot"
                             ]);
                         }
 
@@ -1422,8 +1422,8 @@ https://telegram.me/mhrdev/834
 
                         [['text'=>'کانال اطلاع رسانی ربات','url'=>$links['mhrdev_c']]],
 
-                        [['text'=>'تماس با توسعه دهنده','url'=>'https://telegram.me/pp2007ws']],
-                        [['text'=>'ربات نظر سنجی در کانال','url'=>'https://telegram.me/chvotebot']]
+                        [['text'=>'تماس با مدیر کانال','url'=>'https://telegram.me/sayamarket']],
+                        [['text'=>'ربات نظر سنجی در کانال','url'=>'https://telegram.me/sayastore']]
                     ]
                 ])
             ]));
